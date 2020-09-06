@@ -37,7 +37,7 @@ function addtodo(event){
     todoDiv.appendChild(newtodo);
     //check mark button
     const completedbutton=document.createElement('button');
-    completedbutton.innerHTML='Comp';
+    completedbutton.innerHTML='Done';
     completedbutton.classList.add('complete-btn');
     todoDiv.appendChild(completedbutton)
     //trash button
